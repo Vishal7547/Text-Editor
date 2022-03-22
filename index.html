@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
+</head>
+<body>
+    <h1 class="her">text editor</h1>
+    <div class="ones">
+        <div class="btn">
+            <button id="color" class="bold change" onclick="run()" >color
+                <div class="variety" id="variety">
+                    <input  type="button" id="yellow" class="mix v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"  onclick="bold0()">
+                    <input onclick="bold00()" type="button" id="pink" class="mix1 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold000()" type="button" id="green" class="mix2 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold0000()" type="button" id="black" class="mix3 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold00000()" type="button" id="blue" class="mix4 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold000000()" type="button" id="red" class="mix5 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold0000000()" type="button" id="grey" class="mix6 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold00000000()" type="button" id="orange" class="mix7 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold000000000()" type="button" id="sky" class="mix8 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                </div>
+            </button>
+            <button id="bgColor" class="bold change" onclick="run1()">Bg-Color
+                <div class="variety" id="var">
+                    <input onclick="bold2()" type="button" id="yellow1" class="mix v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold22()" type="button" id="pink1" class="mix1 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold222()" type="button" id="green1" class="mix2 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold2222()" type="button" id="black1" class="mix3 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold22222()" type="button" id="blue1" class="mix4 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold222222()" type="button" id="red1" class="mix5 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold2222222()" type="button" id="grey1" class="mix6 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold22222222()" type="button" id="orange1" class="mix7 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                    <input onclick="bold222222222()" type="button" id="sky1" class="mix8 v" value="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;">
+                </div>
+            </button>
+            <button class="bold" id="bol" onclick="bold1()">bold</button>
+            <button id="italic" class="bold" onclick="bold11()">italic</button>
+            <button id="left" class="bold" onclick="bold111()"><i class="fas fa-align-left"></i></button>
+            <button id="right" class="bold" onclick="bold1111()"><i class="fas fa-align-right"></i></button>
+            <button id="center" class="bold" onclick="bold11111()"><i class="fas fa-align-center"></i></button>
+            <button id="upperCase" class="bold" onclick="bold111111()">Upper Case</button>
+            <button id="lowerCase" class="bold" onclick="bold1111111()">lower case</button>
+            <button id="capitalize" class="bold" onclick="bold11111111()">capitalize</button>
+           
+            <button id="clear" class="bold" onclick="last()">clear</button>
+         
+
+        </div>
+        <div class="area">
+            <textarea name="message" rows="30" cols="60" class="design" id="text">enter text....</textarea>
+        </div>
+    </div>
+
+    <script src ="form1.js"></script>
+</body>
+</html>
